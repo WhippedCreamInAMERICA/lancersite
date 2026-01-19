@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Determination Mono';
+  src: url('./assets/DeterminationMonoWeb.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: 'Determination Mono';
+  background-color: black;
+  border: 7px solid #6F9FE9;
+}
+
+h1 {
+  color: #fff;
+  letter-spacing: 0.05rem;
+}
+
+#header {
+  margin: 20px;
+}
+
+p {
+  color: #fff;
+}
+
+#lancerButton {
+  background-color: #6F9FE9;
+  color: white;
+  font-family: 'Determination Mono';
+  font-size: 1.2rem;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#lancerButton:hover {
+  background-color: #618ccc;
+  cursor: pointer;
+}
+
+#firstLancer {
+  max-width: 100px;
+}
+
+#content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
